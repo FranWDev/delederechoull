@@ -1,0 +1,182 @@
+@media (min-width: 768px) {
+    .hero h1 {
+        font-size: 3.5rem;
+    }
+
+    .social-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .contact-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .slide img {
+        height: 500px;
+    }
+
+    section {
+        padding: 100px 40px;
+    }
+
+    .about-content {
+        padding: 60px;
+    }
+
+    .social-card {
+        padding: 40px;
+    }
+
+    .contact-card {
+        padding: 50px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .hero h1 {
+        font-size: 4.5rem;
+    }
+
+    .hero p {
+        font-size: 1.4rem;
+    }
+
+    section {
+        padding: 120px 60px;
+        max-width: 100%;
+    }
+
+    .section-title {
+        font-size: 2.5rem;
+        margin-bottom: 60px;
+    }
+
+    .about-content {
+        padding: 70px;
+        display: grid;
+        gap: 30px;
+    }
+
+    .about-content p {
+        font-size: 1.2rem;
+    }
+
+    .social-grid {
+        gap: 30px;
+    }
+
+    .social-card {
+        padding: 50px;
+    }
+
+    .social-icon {
+        width: 80px;
+        height: 80px;
+    }
+
+    .social-icon svg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .social-card h3 {
+        font-size: 1.8rem;
+    }
+
+    .social-card p {
+        font-size: 1.1rem;
+    }
+
+    .repo-section-wrapper {
+        padding: 160px 60px;
+    }
+
+    .repo-float-icon {
+        font-size: 120px;
+    }
+
+    .repo-card h2 {
+        font-size: 2.5rem;
+    }
+
+    .repo-card h3 {
+        font-size: 2.5rem;
+    }
+
+    .repo-book-icon {
+        font-size: 4rem;
+    }
+
+    .repo-card p {
+        font-size: 1.3rem;
+        max-width: 800px;
+        margin: 0 auto 40px;
+    }
+
+    .repo-btn {
+        padding: 20px 60px;
+        font-size: 1.2rem;
+    }
+
+    .contact-grid {
+        gap: 40px;
+    }
+
+    .contact-card {
+        padding: 60px;
+    }
+
+    .contact-icon {
+        font-size: 70px;
+    }
+
+    .contact-card h3 {
+        font-size: 1.8rem;
+    }
+
+    .contact-card a {
+        font-size: 1.4rem;
+    }
+
+    .slide img {
+        height: 600px;
+    }
+
+    .slide-caption {
+        font-size: 1.4rem;
+        padding: 40px 60px;
+    }
+
+    .slider-btn {
+        width: 60px;
+        height: 60px;
+        font-size: 28px;
+    }
+
+    .slider-controls {
+        padding: 0 40px;
+    }
+
+    footer {
+        padding: 60px 40px;
+        font-size: 1.1rem;
+    }
+
+    footer h3 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    .hero h1 {
+        font-size: 5rem;
+    }
+
+    .social-grid {
+        gap: 40px;
+    }
+
+    .slide img {
+        height: 700px;
+    }
+}

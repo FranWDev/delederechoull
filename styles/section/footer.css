@@ -1,0 +1,19 @@
+footer {
+    background: var(--primary-purple);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer {
+    padding: 60px 40px;
+    font-size: 1.1rem;
+}
+
+footer h3 {
+    font-size: 1.8rem;
+}

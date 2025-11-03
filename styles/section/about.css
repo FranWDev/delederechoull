@@ -1,0 +1,18 @@
+.about-content {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(92, 6, 140, 0.1);
+    transition: all 0.6s ease;
+}
+
+.about-content:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 60px rgba(92, 6, 140, 0.2);
+}
+
+.about-content p {
+    line-height: 1.8;
+    color: #555;
+    font-size: 1.1rem;
+}
