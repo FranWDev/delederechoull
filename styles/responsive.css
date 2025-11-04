@@ -15,9 +15,10 @@
         height: 500px;
     }
 
-    section {
+    section:not(.hero) {
         padding: 100px 40px;
     }
+    
 
     .about-content {
         padding: 60px;
@@ -41,10 +42,11 @@
         font-size: 1.4rem;
     }
 
-    section {
+    section:not(.hero) {
         padding: 120px 60px;
-        max-width: 100%;
+        max-width: 65%;
     }
+
 
     .section-title {
         font-size: 2.5rem;

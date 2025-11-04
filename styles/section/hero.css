@@ -8,6 +8,7 @@
     text-align: center;
     overflow: hidden;
     box-shadow: inset 0 -280px 120px -140px var(--bg-light);
+    max-width: 100%;
 }
 
 .hero-bg {
@@ -24,6 +25,9 @@
     font-size: 60px;
     animation: floatRandom 15s infinite ease-in-out;
     opacity: 0.3;
+}
+.hero-content img {
+    max-width: 600px;
 }
 
 .floating-icon:nth-child(1) {
