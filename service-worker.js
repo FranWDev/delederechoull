@@ -1,3 +1,6 @@
+const CACHE_NAME = "static-v0";
+
+
 const BASE = self.location.pathname.replace(/service-worker\.js$/, "");
 
 const ASSETS = [
