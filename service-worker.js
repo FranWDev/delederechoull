@@ -1,32 +1,31 @@
-const CACHE_NAME = "static-v6";
+const CACHE_NAME = "static-v7";
+
 
 const ASSETS = [
-  "/", 
-  "/index.html",
+  "index.html",
 
+  "assets/favicon.ico",
+  "assets/logo.svg",
+  "assets/drive.svg",
+  "assets/example.webp",
+  "assets/icon-512.png",
+  "assets/icon-192.png",
 
-  "/assets/favicon.ico",
-  "/assets/logo.svg",
-  "/assets/drive.svg",
-  "/assets/example.webp",
-  "/assets/icon-512.png",
-  "/assets/icon-192.png",
+  "styles/var.css",
+  "styles/main.css",
+  "styles/section/hero.css",
+  "styles/section/about.css",
+  "styles/section/social.css",
+  "styles/section/repository.css",
+  "styles/section/gallery.css",
+  "styles/section/contact.css",
+  "styles/section/footer.css",
+  "styles/responsive.css",
 
-  "/styles/var.css",
-  "/styles/main.css",
-  "/styles/section/hero.css",
-  "/styles/section/about.css",
-  "/styles/section/social.css",
-  "/styles/section/repository.css",
-  "/styles/section/gallery.css",
-  "/styles/section/contact.css",
-  "/styles/section/footer.css",
-  "/styles/responsive.css",
-
-  "/scripts/parallax.js",
-  "/scripts/slider.js",
-  "/scripts/main.js",
-  "/scripts/scroll-animations.js",
+  "scripts/parallax.js",
+  "scripts/slider.js",
+  "scripts/main.js",
+  "scripts/scroll-animations.js",
 ];
 
 self.addEventListener("install", (event) => {
