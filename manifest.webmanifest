@@ -1,8 +1,8 @@
 {
   "name": "Delegación de Estudiantes de Derecho - ULL",
   "short_name": "Derecho ULL",
-  "start_url": "",
-  "scope": ".",
+  "start_url": "/delederechoull/",
+  "scope": "/delederechoull/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#5c068c",
