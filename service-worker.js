@@ -1,4 +1,4 @@
-const CACHE_NAME = "static-v2";
+const CACHE_NAME = "static-v3";
 
 
 const BASE = self.location.pathname.replace(/service-worker\.js$/, "");
