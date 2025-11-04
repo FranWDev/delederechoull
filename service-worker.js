@@ -1,32 +1,29 @@
-const CACHE_NAME = "static-v8";
-
+const BASE = self.location.pathname.replace(/service-worker\.js$/, "");
 
 const ASSETS = [
-  "index.html",
-
-  "assets/favicon.ico",
-  "assets/logo.svg",
-  "assets/drive.svg",
-  "assets/example.webp",
-  "assets/icon-512.png",
-  "assets/icon-192.png",
-
-  "styles/var.css",
-  "styles/main.css",
-  "styles/section/hero.css",
-  "styles/section/about.css",
-  "styles/section/social.css",
-  "styles/section/repository.css",
-  "styles/section/gallery.css",
-  "styles/section/contact.css",
-  "styles/section/footer.css",
-  "styles/responsive.css",
-
-  "scripts/parallax.js",
-  "scripts/slider.js",
-  "scripts/main.js",
-  "scripts/scroll-animations.js",
+  BASE + "index.html",
+  BASE + "assets/favicon.ico",
+  BASE + "assets/logo.svg",
+  BASE + "assets/drive.svg",
+  BASE + "assets/example.webp",
+  BASE + "assets/icon-512.png",
+  BASE + "assets/icon-192.png",
+  BASE + "styles/var.css",
+  BASE + "styles/main.css",
+  BASE + "styles/section/hero.css",
+  BASE + "styles/section/about.css",
+  BASE + "styles/section/social.css",
+  BASE + "styles/section/repository.css",
+  BASE + "styles/section/gallery.css",
+  BASE + "styles/section/contact.css",
+  BASE + "styles/section/footer.css",
+  BASE + "styles/responsive.css",
+  BASE + "scripts/parallax.js",
+  BASE + "scripts/slider.js",
+  BASE + "scripts/main.js",
+  BASE + "scripts/scroll-animations.js",
 ];
+
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
