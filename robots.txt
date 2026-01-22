@@ -1,0 +1,22 @@
+# Robots.txt para Delegación de Estudiantes - Facultad de Derecho ULL
+
+# Permitir a todos los buscadores
+User-agent: *
+Allow: /
+Disallow: /assets/
+Disallow: /scripts/
+Disallow: /styles/
+
+# Específico para Googlebot
+User-agent: Googlebot
+Allow: /
+
+# Específico para Bingbot
+User-agent: Bingbot
+Allow: /
+
+# Crawl-delay para evitar sobrecarga
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://delederechoull.vercel.app/sitemap.xml
